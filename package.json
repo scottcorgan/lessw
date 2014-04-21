@@ -33,5 +33,5 @@
   },
   "bin": {
     "less": "bin/watch.js"
-  },
+  }
 }

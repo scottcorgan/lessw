@@ -1,6 +1,6 @@
 {
   "name": "lessw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Watch and comile LESS files",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,8 @@
     "glob": "^3.2.9",
     "async": "^0.7.0",
     "as-array": "^0.1.2"
-  }
+  },
+  "bin": {
+    "less": "bin/watch.js"
+  },
 }

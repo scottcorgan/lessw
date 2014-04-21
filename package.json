@@ -1,0 +1,31 @@
+{
+  "name": "lessw",
+  "version": "0.1.0",
+  "description": "Watch and comile LESS files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/lessw.git"
+  },
+  "keywords": [
+    "less",
+    "compile",
+    "watch",
+    "css"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/lessw/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/lessw",
+  "dependencies": {
+    "minimist": "0.0.8",
+    "chokidar": "^0.8.2",
+    "less": "^1.7.0",
+    "resumer": "0.0.0"
+  }
+}
